@@ -21,6 +21,7 @@
 		1503DC8919C16F49000D3993 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1503DC6B19C16F49000D3993 /* UIKit.framework */; };
 		1503DC9119C16F49000D3993 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1503DC8F19C16F49000D3993 /* InfoPlist.strings */; };
 		1503DC9319C16F49000D3993 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1503DC9219C16F49000D3993 /* Git_TestTests.m */; };
+		1503DC9E19C186A4000D3993 /* NDtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1503DC9D19C186A4000D3993 /* NDtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1503DC8E19C16F49000D3993 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1503DC9019C16F49000D3993 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1503DC9219C16F49000D3993 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1503DC9C19C186A4000D3993 /* NDtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDtest.h; sourceTree = "<group>"; };
+		1503DC9D19C186A4000D3993 /* NDtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		1503DC5B19C16F49000D3993 = {
 			isa = PBXGroup;
 			children = (
+				1503DC9C19C186A4000D3993 /* NDtest.h */,
+				1503DC9D19C186A4000D3993 /* NDtest.m */,
 				1503DC6D19C16F49000D3993 /* Git Test */,
 				1503DC8C19C16F49000D3993 /* Git TestTests */,
 				1503DC6619C16F49000D3993 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1503DC7E19C16F49000D3993 /* NDViewController.m in Sources */,
+				1503DC9E19C186A4000D3993 /* NDtest.m in Sources */,
 				1503DC7819C16F49000D3993 /* NDAppDelegate.m in Sources */,
 				1503DC7419C16F49000D3993 /* main.m in Sources */,
 			);
